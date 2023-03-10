@@ -1,0 +1,18 @@
+{
+    "name": "cap_backEscuela_lmora",
+    "version": "1.0.0",
+    "description": "Proyecto desarrollado bajo el modelo CAP para backend en SAP",
+    "repository": "https://gitlab.com/luis.mora.pantoja",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+        "@sap/cds": "^6",
+        "express": "^4"
+    },
+    "devDependencies": {
+        "sqlite3": "^5.0.4"
+    },
+    "scripts": {
+        "start": "cds watch"
+    }
+}
